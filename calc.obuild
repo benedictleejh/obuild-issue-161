@@ -1,0 +1,7 @@
+name: calc
+version: 0.0.1
+obuild-ver: 1
+
+executable calc
+  main-is: calc.ml
+  build-deps: ppx_deriving.std
